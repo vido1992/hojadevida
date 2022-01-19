@@ -1,0 +1,146 @@
+body {
+    height:100%;
+    background-image: url("../imagenes/fondo4.jpg");
+    height: auto;
+  }
+
+.texto{
+    text-align: justify;
+   color: white;
+}
+@media screen and (max-width: 800px){
+  /*   .navbar{
+        margin: 0;
+        width: 100%;
+    } */
+    .contenido{
+        margin: 0;
+        width: 100%;
+    }
+    footer{
+        margin: 0;
+        width:100%;
+    }
+    .row{
+        margin: 0;
+        width: 50%;
+    }
+    .texto{
+        margin: 0;
+        width: 100%; 
+    }
+    .imagenyo {
+        max-width: 85% !important;
+        max-height: 85% !important;
+        display:block;
+        margin:auto;
+    }
+}
+ 
+.imagenyo {
+    float: left;
+}
+
+
+ footer {
+    /* text-align: left; */
+    padding: 3px;
+    color: white;
+  }
+
+  .iconos{
+    float: left;
+    
+  }
+  .bi-facebook{
+      color: rgb(44, 44, 236);
+      align-items: center;
+  }
+
+  .bi-whatsapp{
+      color: rgb(7, 143, 7);
+      margin-left:30px
+  }
+
+  .bi-instagram{
+    color: rgb(209, 87, 30);
+    margin-left:30px
+  }
+
+  a {
+    
+    text-decoration: none;
+  
+  }
+
+
+  /* esto es boton whatsapp */
+.tooltip2 {
+    position: fixed;
+      width:60px;
+      height:60px;
+      bottom:500px;
+      right:40px;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+  
+    z-index:100;
+    
+    
+  }
+  
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    font-size: small;
+    right: 105%;
+   
+   
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  
+  
+   
+  .imagenes{
+    position: relative;
+     width: 60%;
+     height: 60%;
+   
+    object-fit: contain;
+    text-align: center;
+  }
+  .float{
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:500px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
