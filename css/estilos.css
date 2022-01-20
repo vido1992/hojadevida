@@ -7,6 +7,19 @@ body {
 .texto{
     text-align: justify;
    color: white;
+   margin-top:70px;
+   
+}
+.texto2{
+  text-align: justify;
+ color: white;
+}
+h2{
+  color:white;
+  text-align: center;
+}
+td{
+  text-align: justify;
 }
 @media screen and (max-width: 800px){
   /*   .navbar{
@@ -35,6 +48,9 @@ body {
         display:block;
         margin:auto;
     }
+    .table{
+        font-size: 10px;
+    }
 }
  
 .imagenyo {
@@ -52,19 +68,24 @@ body {
     float: left;
     
   }
+  .bi-github{
+    color: rgb(165, 120, 7);
+      margin-left:30px;
+  }
+
   .bi-facebook{
       color: rgb(44, 44, 236);
-      align-items: center;
+      margin-left:30px;
   }
 
   .bi-whatsapp{
       color: rgb(7, 143, 7);
-      margin-left:30px
+      margin-left:30px;
   }
 
   .bi-instagram{
     color: rgb(209, 87, 30);
-    margin-left:30px
+    margin-left:30px;
   }
 
   a {
